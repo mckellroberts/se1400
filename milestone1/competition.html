@@ -1,20 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
     <style>
-        a:link {
-            color: darkorange;
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: aliceblue;
+            color: #333;
         }
 
-        a:visited {
-            color: orange;
+        header,
+        nav {
+            background: darkorange;
+            color: #f5f5f5;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: #f5f5f5;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 5px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        dl {
+            list-style: none;
+            padding: 0;
+        }
+
+        dl dt {
+            margin: 5px 0;
+        }
+
+        dl dt dd {
+            margin: 8px 0;
+        }
+
+        dt a {
+            color: darkorange;
+            text-decoration: none;
+            font-weight: bold;
         }
 
         a:hover {
-            color: orange;
+            text-decoration: underline;
         }
 
-        a:active {
-            color: darkorange;
+        footer {
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+            background: #333;
+            color: white;
         }
     </style>
 
@@ -23,8 +73,8 @@
         <meta charset="UTF-8">
     </head>
 
-    <body style="background-color: darkslateblue; color:aliceblue;">
-        <header style="color:darkorange;">
+    <body>
+        <header>
             <h2>Utah Window Screens</h2>
         </header>
         <nav>
@@ -34,63 +84,66 @@
             <!--If extra space is needed, add "&nbsp;" after each closing </a> tag-->
         </nav>
         <main>
-            <h2>The Competitors</h2>
-            <dl>
-                <dt><a href="https://www.intermountainwindowsdoors.com/">Intermountain Windows and Doors LLC</a></dt>
-                <br>
-                <dd>
-                    <b>Content</b> - Has a bar at the top that immediately provides contact
-                    information. I don’t love where it’s placed but I do like that it
-                    is accessible easily. Has the normal navigation bar. I do enjoy
-                    that, it makes it easy to find.
-                </dd>
-                <br>
-                <dd>
-                    <b>Images</b> - Photos are emotionally provoking. That’s a good feature.
-                    Also has a bar showing what kind of work that they do. Nice.
-                </dd>
-                <br>
-                <dd>
-                    <b>Color Scheme</b> - Red, white, and grey. Felt pretty neutral with a pop of color.
-                </dd>
-                <br>
-                <dd><b>Layout</b> - Very blocky. Like one block per screen.</dd>
-                <br>
-                <dt>
-                    <a href="https://allstarpros.com/?c=windows&p=window_screen_repair&locp=85684&loc
-                    i&kw=window%20screen%20repair%20near%20me&var1=603645788&acct=b_2_&utm_source=bin
-                    g&utm_medium=cpc&utm_network=o&utm_device=c&utm_keyword=window%20screen%20repair%2
-                    0near%20me&utm_matchtype=e&utm_campaignid=603645788&utm_adgroupid=1330411478439776&
-                    utm_adid=83150982204997&msclkid=93f68474c95713453db6e30bc4a3aac2&utm_campaign=e:BGp
-                    v:Window%20Screen%20Repairt:Windows%20-%20Door%20or%20Window%20Screens%20-%20Install
-                    %20or%20Repairc:Windowsa:P2(ASP)2&utm_term=window%20screen%20repair%20near%20me&utm_c
-                    ontent=Window%20Screen%20Repair%20Near%20Me%20[EM]%20(ASP)">
-                        All Star Pros</a>
-                </dt>
-                <br>
-                <dd>
-                    <b>Content</b> - Has a nav bar that disappears as you move the screen. Don’t
-                    love. All of the contact information first in a way that reminds me of
-                    a document. Not a fan. Shows some of the customer reviews, I do really
-                    like that. Shows you what kind of windows they support. Love that!
-                </dd>
-                <br>
-                <dd>
-                    <b>Images</b> - Showing what they provide. Has pictures with smiling previous
-                    customers, pulls the emotional card.
-                </dd>
-                <br>
-                <dd>
-                    <b>Color Scheme</b> - Blue, black, and white. A bit of a darker neutral tone. Was
-                    appealing to the eye.
-                </dd>
-                <br>
-                <dd>
-                    <b>Layout</b> - Felt like I was looking at a document for the top half of the screen.
-                    Was extremely confused to find the that the rest of the page looked
-                    quite great.
-                </dd>
-            </dl>
+            <section>
+                <h2>The Competitors</h2>
+                <dl>
+                    <dt><a href="https://www.intermountainwindowsdoors.com/">Intermountain Windows and Doors LLC</a>
+                    </dt>
+                    <br>
+                    <dd>
+                        <b>Content</b> - Has a bar at the top that immediately provides contact
+                        information. I don’t love where it’s placed but I do like that it
+                        is accessible easily. Has the normal navigation bar. I do enjoy
+                        that, it makes it easy to find.
+                    </dd>
+                    <br>
+                    <dd>
+                        <b>Images</b> - Photos are emotionally provoking. That’s a good feature.
+                        Also has a bar showing what kind of work that they do. Nice.
+                    </dd>
+                    <br>
+                    <dd>
+                        <b>Color Scheme</b> - Red, white, and grey. Felt pretty neutral with a pop of color.
+                    </dd>
+                    <br>
+                    <dd><b>Layout</b> - Very blocky. Like one block per screen.</dd>
+                    <br>
+                    <dt>
+                        <a href="https://allstarpros.com/?c=windows&p=window_screen_repair&locp=85684&loc
+                        i&kw=window%20screen%20repair%20near%20me&var1=603645788&acct=b_2_&utm_source=bin
+                        g&utm_medium=cpc&utm_network=o&utm_device=c&utm_keyword=window%20screen%20repair%2
+                        0near%20me&utm_matchtype=e&utm_campaignid=603645788&utm_adgroupid=1330411478439776&
+                        utm_adid=83150982204997&msclkid=93f68474c95713453db6e30bc4a3aac2&utm_campaign=e:BGp
+                        v:Window%20Screen%20Repairt:Windows%20-%20Door%20or%20Window%20Screens%20-%20Install
+                        %20or%20Repairc:Windowsa:P2(ASP)2&utm_term=window%20screen%20repair%20near%20me&utm_c
+                        ontent=Window%20Screen%20Repair%20Near%20Me%20[EM]%20(ASP)">
+                            All Star Pros</a>
+                    </dt>
+                    <br>
+                    <dd>
+                        <b>Content</b> - Has a nav bar that disappears as you move the screen. Don’t
+                        love. All of the contact information first in a way that reminds me of
+                        a document. Not a fan. Shows some of the customer reviews, I do really
+                        like that. Shows you what kind of windows they support. Love that!
+                    </dd>
+                    <br>
+                    <dd>
+                        <b>Images</b> - Showing what they provide. Has pictures with smiling previous
+                        customers, pulls the emotional card.
+                    </dd>
+                    <br>
+                    <dd>
+                        <b>Color Scheme</b> - Blue, black, and white. A bit of a darker neutral tone. Was
+                        appealing to the eye.
+                    </dd>
+                    <br>
+                    <dd>
+                        <b>Layout</b> - Felt like I was looking at a document for the top half of the screen.
+                        Was extremely confused to find the that the rest of the page looked
+                        quite great.
+                    </dd>
+                </dl>
+            </section>
         </main>
         <footer>
             <h6>Copyright &copy; 2025</h6>
