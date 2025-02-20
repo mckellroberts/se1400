@@ -1,0 +1,31 @@
+body {
+    display: grid;
+    grid-template-columns: minmax(0px, 1fr) repeat(6, minmax(0, 175px)) minmax(0px, 1fr);
+    gap:0;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    height: 3.5rem;
+    background-color: rgba(255, 40, 40, 0.3);
+    grid-column: 1 / -1;
+}
+
+section {
+    height: 2rem;
+    background-color: rgba(200, 90, 10, 0.3);
+    grid-column: 1 / -1;
+}
+
+main {
+    height: 30rem;
+    background-color: rgba(40, 40, 255, 0.3);
+    grid-column: 2 / -2;
+}
+
+footer {
+    height: 2.5rem;
+    background-color: rgba(40, 255, 40, 0.3);
+    grid-column: 1 / -1;
+}
