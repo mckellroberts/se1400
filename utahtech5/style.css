@@ -219,14 +219,8 @@ footer {
         grid-column: 1/-1;
     }
 
-    #homehero {
-        display: none;
-    }
-
-    #facultyhero {
-        display: none;
-    }
-
+    #homehero,
+    #facultyhero,
     #studenthero {
         display: none;
     }
