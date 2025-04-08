@@ -118,8 +118,8 @@ main {
 }
 
 video {
-    float:right;
-    margin-left:2em;
+    float: right;
+    margin-left: 2em;
 }
 
 form {
@@ -127,18 +127,20 @@ form {
     grid-template-rows: auto;
     grid-template-columns: 200px 1fr;
     gap: 0.75rem;
-    width:100%;
+    width: 100%;
 }
 
-input, textarea {
+input,
+textarea {
     font-size: 1rem;
-    padding:10px;
-    color:#666666;
+    padding: 10px;
+    color: #666666;
     background-color: #fafafa;
-    border:none;
+    border: none;
 }
 
-input:focus, textarea:focus {
+input:focus,
+textarea:focus {
     outline: none;
     background-color: #f0f0f0;
 }
@@ -164,16 +166,21 @@ table {
     width: 100%;
     border-collapse: collapse;
 }
-td, th {
+
+td,
+th {
     padding: 5px;
     border: 1px solid #424242;
 }
+
 td {
     text-align: center;
 }
+
 .text {
     text-align: left;
 }
+
 tr:nth-of-type(odd):not(:first-child) {
     background-color: #f3f3f3;
 }
@@ -267,9 +274,9 @@ footer {
         flex-flow: column nowrap;
     }
 
-    #homehero, 
+    #homehero,
     #facultyhero,
-    #studenthero, 
+    #studenthero,
     #alumnihero,
     #shophero {
         grid-row: 2/3;
@@ -285,10 +292,10 @@ footer {
     }
 
     video {
-        float:none;
-        margin:0;
-        width:100%;
-        height:auto;
+        float: none;
+        margin: 0;
+        width: 100%;
+        height: auto;
     }
 
     #shoppingcart {
